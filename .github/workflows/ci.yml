@@ -4,12 +4,12 @@ env:
   POETRY_VERSION: 1.3.2
 
 jobs:
-  ci-test-project_a:
-    name: Test project_a
+  ci-test-library_a:
+    name: Test library_a
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: libraries/project_a
+        working-directory: libraries/library_a
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
