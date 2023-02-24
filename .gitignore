@@ -143,6 +143,9 @@ artifact.patch
 # ignore all poetry.lock files
 **poetry.lock
 
+# except top level one
+!poetry.lock
+
 # images and data, which we hate and fear
 # overwrite this on a case by case basis in the .gitignores of specific packages if you really need them
 **/*.png
