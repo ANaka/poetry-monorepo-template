@@ -44,11 +44,11 @@ eval "$(pyenv init -)"
 
 Restart your terminal.
 
-Install Python 3.11 and set as default global:
+Install Python 3.10 and set as local default:
 
 ```bash
-pyenv install 3.11
-pyenv global 3.11
+pyenv install 3.10
+pyenv local 3.10
 ```
 
 #### Install Poetry (macOS and Linux)
