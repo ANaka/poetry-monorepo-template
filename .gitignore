@@ -141,7 +141,7 @@ dmypy.json
 artifact.patch
 
 # ignore all poetry.lock files
-**poetry.lock
+**/*poetry.lock
 
 # except top level one
 !poetry.lock
