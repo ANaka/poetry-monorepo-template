@@ -5,24 +5,6 @@ A template with some preferences for a poetry monorepo.
 ## Installation
 
 
-
-### Clone repo
-
-```bash
-# Clone monorepo to your machine
-git clone <repo-url>
-
-# Change into monorepo directory
-cd <repo-name>
-
-# Install base package (just for pre-commit hooks)
-poetry install
-
-# Install pre-commit hooks
-poetry run pre-commit install
-
-```
-
 ### Set up `poetry` and `pyenv`
 
 - Pyenv setup instructions: [https://github.com/pyenv/pyenv#installation](https://github.com/pyenv/pyenv#installation)
@@ -76,9 +58,27 @@ Check poetry version - should show 1.2.0 or higher
 poetry --version
 ```
 
+### Clone repo
+
+```bash
+# Clone monorepo to your machine
+git clone <repo-url>
+
+# Change into monorepo directory
+cd <repo-name>
+
+# Install base package (just for pre-commit hooks)
+poetry install
+
+# Install pre-commit hooks
+poetry run pre-commit install
+
+```
+
+
 ### Git LFS
 
-We use [Git LFS](https://git-lfs.github.com/) to store large files in the repo. To install Git LFS, follow the instructions for your OS:
+[Git LFS](https://git-lfs.github.com/) to store large files in the repo. To install Git LFS, follow the instructions for your OS:
 
 ```bash
 
@@ -93,7 +93,7 @@ brew install git-lfs
 git lfs install
 ```
 
-That should be it - our `.gitattributes` file should take care of the rest.
+`.gitattributes` file should take care of the rest.
 
 ### Installing a subpackage
 
