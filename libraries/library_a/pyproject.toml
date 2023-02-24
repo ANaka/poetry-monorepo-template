@@ -3,6 +3,7 @@ name = "library_a"
 version = "0.1.0"
 description = ""
 authors = ["anaka <alex.naka@gmail.com>"]
+packages = [{include = "library_a"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
